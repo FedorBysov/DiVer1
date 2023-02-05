@@ -8,8 +8,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//
-//        val activity = Activity()
-//        activity.keyboard.toString()
+
+        val activity = Activity()
+        activity.keyboard.toString()
     }
 }
