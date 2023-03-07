@@ -9,7 +9,7 @@ class Activity {
 
     init {
 //        Component().inject(this)
-        DaggerNewComponent.create().inject(this)
+        Component().inject(this)
     }
 
 }
